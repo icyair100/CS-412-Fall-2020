@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76d67965-e8c9-45b7-8f76-d2b2f5679c93" name="Default Changelist" comment="" />
+    <list default="true" id="76d67965-e8c9-45b7-8f76-d2b2f5679c93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,8 +60,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603232441162</updated>
-      <workItem from="1603232442915" duration="2413000" />
+      <workItem from="1603232442915" duration="2736000" />
     </task>
+    <task id="LOCAL-00001" summary="PS3">
+      <created>1603237359926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603237359926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PS3" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS3" />
   </component>
 </project>
