@@ -1,0 +1,14 @@
+extends layout
+
+
+block content
+
+    h1 PS4 POST method to retrieve data from the Official Joke API!
+    br
+    h3 Here are the jokes you ordered...
+    br
+    ul
+        each val in jokes
+            p Joke : #{val.setup}
+            p PunchLine : #{val.punchline}
+            br
