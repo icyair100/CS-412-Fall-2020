@@ -1,0 +1,14 @@
+<button mat-raised-button (click)="toggleData()" >Fetch Data</button>
+
+<div *ngIf="!isShowDivIf">
+  <ul *ngFor="let j of jokes">
+    <li (click)="setSelectedJoke(j)">{{j.setup}}</li>
+  </ul>
+</div>
+
+
+<div name="details" *ngIf="selectedJoke">
+  <label>
+    <input style="width: 500px" name="punchline" type="text" value="{{selectedJoke.punchline}}">
+  </label>
+</div>
